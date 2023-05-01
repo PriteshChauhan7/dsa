@@ -3,12 +3,17 @@
 using namespace std;
 
 int main() {
-    int a;
-    long b;
+    int i;
+    long l;
     char c;
-    float d;
-    double e;
-    cin>>a>>b>>c>>d>>e;
-    cout<<a<<"/n"<<b<<"/n"<<c<<"/n"<<d<<"/n"<<e<<"/n";
+    float f;
+    double d;
+    scanf("%d %ld %c %f %lf" , &i, &l, &c, &f, &d);
+    printf("%d\n%ld\n%c\n%.3f\n%.9lf\n", i,l,c,f,d);
+
     return 0;
 }
+
+
+
+https://www.hackerrank.com/challenges/c-tutorial-basic-data-types/problem?isFullScreen=true
